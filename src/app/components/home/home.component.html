@@ -1,0 +1,7 @@
+<h1> todo list </h1>
+<app-add-form [todos]="todos"></app-add-form>
+<app-todo-item *ngFor ="let todo of todos"[todo]="todo"> </app-todo-item>
+<!-- <app-add-form (newItemEvent)="addItem($event)"></app-add-form> -->
+    <!-- <ul>
+        <li *ngFor="let item of items">{{item}}</li>
+    </ul> -->
